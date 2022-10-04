@@ -1,0 +1,20 @@
+# Four element list of integers
+numbers = [1,2,3,4,]
+
+# Prints elements and length of list
+print(numbers)
+print("length:",len(numbers),"elements")
+print()
+
+# Using append() method to add integer value 5 to the end of list
+numbers.append(5)
+
+print(numbers)
+print("length:",len(numbers),"elements")
+print()
+
+# Using insert() method to add integer value 6 to the 6th element of the list
+numbers.insert(6,6)
+
+print(numbers)
+print("length:",len(numbers),"elements")
